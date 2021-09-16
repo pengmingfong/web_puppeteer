@@ -31,10 +31,10 @@ const jsesc = require('jsesc');
         // 捕获异常
         try {
             // 设置代理
-            await page.authenticate({
-                username: proxyUser,
-                password: proxyPass
-            });
+            // await page.authenticate({
+            //     username: proxyUser,
+            //     password: proxyPass
+            // });
             await page.goto(url)
             htmlContent = await page.content()
 
