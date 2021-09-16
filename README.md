@@ -1,3 +1,4 @@
+基于puppeteer-extra的一个小功能demo。使用了puppeteer-extra-plugin-stealth插件，可以绕过大部分防爬虫的限制
 #安装步骤
 
 1. Install NodeJS
